@@ -1,0 +1,11 @@
+services:
+  td-tcc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: td-tcc:3.4
+    container_name: td-tcc:3.4
+    volumes:
+      - /var/run/docker.sock.raw:/var/run/docker.sock
+    environment:
+      - TC_CLOUD_TOKEN=${TC_CLOUD_TOKEN}
