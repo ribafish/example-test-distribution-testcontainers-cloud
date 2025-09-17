@@ -5,7 +5,8 @@ There are three variants on how to run the test ditribution agent:
 2. Docker
 3. Kubernetes
 
-You can use the project defined in `example-testcontaiers-cloud` to run tests with Test Distribution + Testcontainers. It requires you to define one or both of `-PmaxRemoteExecutors=<number>` or `-PmaxLocalExecutors=<number>` when running the `test` (or any other task that invokes it) task.
+### Testing with this example
+You can use the project defined in `example-testcontaiers-cloud` to run tests with Test Distribution + Testcontainers. It requires you to define one or both of `-PmaxRemoteExecutors=<number>` or `-PmaxLocalExecutors=<number>` when running the `test` (or any other task that invokes it) task. When running with `PmaxRemoteExecutors`, you will need a Test Distribution agent with Testcontainers Cloud configured. Examples on how to get it running are below.
 
 ## 1. Test distribution Jar + Testcontainers Cloud
 
