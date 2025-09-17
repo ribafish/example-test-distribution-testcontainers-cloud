@@ -1,4 +1,4 @@
-# An cloud.testcontainers.example.example on how to get Develocity Test Distribution to work with Testcontainers Cloud
+# An example on how to get Develocity Test Distribution to work with Testcontainers Cloud
 
 There are three variants on how to run the test ditribution agent:
 1. Jar
