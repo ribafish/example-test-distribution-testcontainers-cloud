@@ -5,6 +5,8 @@ There are three variants on how to run the test ditribution agent:
 2. Docker
 3. Kubernetes
 
+You can use the project defined in `example-testcontaiers-cloud` to run tests with Test Distribution + Testcontainers. It requires you to define one or both of `-PmaxRemoteExecutors=<number>` or `-PmaxLocalExecutors=<number>` when running the `test` (or any other task that invokes it) task.
+
 ## 1. Test distribution Jar + Testcontainers Cloud
 
 This is the simplest and recommended way to get started. You just need to download the [TD agent jar](https://docs.gradle.com/develocity/test-distribution-agent/#jar) and run it with the appropriate parameters and run the [Testcontainers Cloud CI agent](https://testcontainers.com/cloud/docs/#tcc-for-ci).
